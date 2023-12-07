@@ -12,15 +12,15 @@ print(f"The area of the circle with radius {radius} is: {area_of_circle}")
 
 #(ii)
 
-# def sum_of_natural_numbers(n):
-#     if n <= 0:
-#         return 0
-#     else:
-#         return n + sum_of_natural_numbers(n - 1)
+def sum_of_natural_numbers(n):
+    if n <= 0:
+        return 0
+    else:
+        return n + sum_of_natural_numbers(n - 1)
 
-# n = 4
-# result = sum_of_natural_numbers(n)
-# print(f"The sum of natural numbers up to {n} is: {result}")
+n = 4
+result = sum_of_natural_numbers(n)
+print(f"The sum of natural numbers up to {n} is: {result}")
 
 #(iii)
 
@@ -59,9 +59,7 @@ original_dict={'a':3,
 for value in original_dict:
     if value>5:
         print(f"new_dict is {value}")
-# new_dict = {key: value 
-# for key, value in original_dict.items() if value > 5}
-# print(new_dict)
+
 
 
 
